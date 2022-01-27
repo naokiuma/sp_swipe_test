@@ -1,0 +1,42 @@
+
+.sp_drag_area{
+    height: 80px;
+    overflow: hidden;
+    /* transition: 0.5s; */
+}
+
+.sp_drag_area .banner_img{
+    max-width: 100%;
+    /* width: 100%; */
+    margin: auto;
+    display: block;
+
+}
+
+.banner_loading{
+    display: none;
+    margin: 5px auto;
+    animation-name: loadingMove;
+    animation-duration: 0.4s;
+    animation-timing-function: ease;
+}
+
+@keyframes loadingMove {
+    0% {
+        transform: translateY(-40px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+
+header{
+    height: 80px;
+    /* margin-top: 10px; */
+    background-color: #3f3f3f;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
