@@ -2,12 +2,12 @@
 .sp_drag_area{
     height: 80px;
     overflow: hidden;
-    /* transition: 0.5s; */
+    padding-bottom: 10px;
+    transition: 0.2s;
 }
 
 .sp_drag_area .banner_img{
     max-width: 100%;
-    /* width: 100%; */
     margin: auto;
     display: block;
 
